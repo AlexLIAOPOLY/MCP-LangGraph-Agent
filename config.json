@@ -1,0 +1,70 @@
+{
+  "amap_geocoding": {
+    "command": "python",
+    "args": [
+      "./mcp_server_amap.py"
+    ],
+    "transport": "stdio"
+  },
+  "filesystem": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "/Users/liaowang/Desktop"
+    ],
+    "transport": "stdio"
+  },
+  "edgeone-pages-mcp-server": {
+    "command": "/opt/homebrew/bin/node",
+    "args": [
+      "/opt/homebrew/bin/npx",
+      "edgeone-pages-mcp"
+    ],
+    "transport": "stdio"
+  },
+  "github": {
+    "command": "/opt/homebrew/bin/node",
+    "args": [
+      "/opt/homebrew/bin/npx",
+      "-y",
+      "@modelcontextprotocol/server-github"
+    ],
+    "env": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_TOKEN_HERE",
+      "PATH": "/Users/liaowang/.local/bin:/Users/liaowang/Desktop/langgraph_multi_mcp项目源码/venv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/liaowang/.cargo/bin:/Users/liaowang/.cursor/extensions/ms-python.debugpy-2025.8.0-darwin-arm64/bundled/scripts/noConfigScripts"
+    },
+    "transport": "stdio"
+  },
+  "context7": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@upstash/context7-mcp@latest"
+    ],
+    "transport": "stdio"
+  },
+  "shell": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kevinwatt/shell-mcp"
+    ],
+    "transport": "stdio"
+  },
+  "browser-tools-mcp": {
+    "command": "npx",
+    "args": [
+      "@agentdeskai/browser-tools-mcp@latest"
+    ],
+    "transport": "stdio"
+  },
+  "sequential-thinking": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-sequential-thinking"
+    ],
+    "transport": "stdio"
+  }
+}

@@ -1,0 +1,13 @@
+faiss-cpu>=1.10.0
+jupyter>=1.1.1
+langchain-community>=0.3.20
+langchain-mcp-adapters>=0.0.7
+langchain-openai>=0.3.11
+langgraph>=0.3.21
+mcp>=1.6.0
+pymupdf>=1.25.4
+python-dotenv>=1.1.0
+streamlit>=1.44.1 
+nest-asyncio>=1.6.0
+langchain_deepseek
+httpx>=0.25.0
