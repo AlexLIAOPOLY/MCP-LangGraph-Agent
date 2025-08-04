@@ -219,14 +219,6 @@ MCP-LangGraph-Agent/
 - [DeepSeek](https://www.deepseek.com/) - 高性能的AI模型
 - [Model Context Protocol](https://modelcontextprotocol.io/) - 标准化的工具集成协议
 
-## 📞 联系方式
-
-如果您有任何问题或建议，请通过以下方式联系：
-
-- 📧 Email: your-email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/MCP-LangGraph-Agent/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-username/MCP-LangGraph-Agent/discussions)
-
 ---
 
 ⭐ 如果这个项目对您有帮助，请给它一个星星！
